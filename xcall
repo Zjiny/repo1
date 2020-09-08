@@ -1,0 +1,8 @@
+#! /bin/bash
+
+for i in Jshu1 Jshu2 Jshu3 
+do
+
+ssh $i "$*"
+
+done
